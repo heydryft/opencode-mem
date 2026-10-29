@@ -534,7 +534,7 @@ memory({ mode: "import", inputPath: "./memories.json" });
   "memoryApiKey": "env://API_ROUTE_API_KEY",
   ```
   选择此提供商时，自动捕获 / 画像提示、模型响应与相关对话上下文会传输到 `https://global.api-route.com`。
-- `runcrate`：面向 [Runcrate](https://www.runcrate.ai) 的 OpenAI 兼容 Chat Completions 预设。`memoryApiUrl` 与 `memoryModel` 可选，它们默认为 `https://api.runcrate.ai/v1` 与 `deepseek-ai/DeepSeek-V4.1-Flash`。若省略 `memoryApiKey`，则使用环境中的 `RUNCRATE_API_KEY`。示例：
+- `runcrate`：面向 [Runcrate](https://www.runcrate.ai) 的 OpenAI 兼容 Chat Completions 预设。`memoryApiUrl` 与 `memoryModel` 可选 — 它们默认为 `https://api.runcrate.ai/v1` 与 `deepseek-ai/DeepSeek-V4.1-Flash`。若省略 `memoryApiKey`，则使用环境中的 `RUNCRATE_API_KEY`。示例：
   ```jsonc
   "memoryProvider": "runcrate",
   "memoryApiKey": "env://RUNCRATE_API_KEY",

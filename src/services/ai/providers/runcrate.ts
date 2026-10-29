@@ -25,7 +25,7 @@ export const RUNCRATE_DEFAULT_MODEL = "deepseek-ai/DeepSeek-V4.1-Flash";
  *   "memoryProvider": "runcrate"
  *   "memoryApiKey": "env://RUNCRATE_API_KEY"
  *
- * `memoryApiUrl` and `memoryModel` are optional; they default to the Runcrate endpoint and `deepseek-ai/DeepSeek-V4.1-Flash` respectively.
+ * `memoryApiUrl` and `memoryModel` are optional — they default to the Runcrate endpoint and `deepseek-ai/DeepSeek-V4.1-Flash` respectively.
  *
  * When this provider is selected, auto-capture / profile prompts, model
  * responses, and relevant conversation context are transmitted to

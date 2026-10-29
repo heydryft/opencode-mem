@@ -539,7 +539,7 @@ Manuelle `memoryProvider`-Modi:
   "memoryApiKey": "env://API_ROUTE_API_KEY",
   ```
   Wenn dieser Provider gewählt ist, werden Auto-Capture- / Profil-Prompts, Modellantworten und relevanter Gesprächskontext an `https://global.api-route.com` übertragen.
-- `runcrate`: OpenAI-kompatibles Chat-Completions-Preset für [Runcrate](https://www.runcrate.ai). `memoryApiUrl` und `memoryModel` sind optional; sie defaulten auf `https://api.runcrate.ai/v1` und `deepseek-ai/DeepSeek-V4.1-Flash`. Fehlt `memoryApiKey`, wird `RUNCRATE_API_KEY` aus der Umgebung verwendet. Beispiel:
+- `runcrate`: OpenAI-kompatibles Chat-Completions-Preset für [Runcrate](https://www.runcrate.ai). `memoryApiUrl` und `memoryModel` sind optional — sie defaulten auf `https://api.runcrate.ai/v1` und `deepseek-ai/DeepSeek-V4.1-Flash`. Fehlt `memoryApiKey`, wird `RUNCRATE_API_KEY` aus der Umgebung verwendet. Beispiel:
   ```jsonc
   "memoryProvider": "runcrate",
   "memoryApiKey": "env://RUNCRATE_API_KEY",

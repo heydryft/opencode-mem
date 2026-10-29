@@ -653,7 +653,7 @@ const CONFIG_TEMPLATE = `{
   // Runcrate (OpenAI-compatible Chat Completions preset, with session support):
   //   "memoryProvider": "runcrate"
   //   "memoryApiKey": "env://RUNCRATE_API_KEY"
-  //   // memoryApiUrl and memoryModel are optional; they default to
+  //   // memoryApiUrl and memoryModel are optional — they default to
   //   // https://api.runcrate.ai/v1 and "deepseek-ai/DeepSeek-V4.1-Flash".
   //   // When selected, auto-capture/profile prompts, responses, and relevant
   //   // conversation context are sent to api.runcrate.ai.

@@ -540,7 +540,7 @@ Manuel `memoryProvider` modları:
   "memoryApiKey": "env://API_ROUTE_API_KEY",
   ```
   Bu sağlayıcı seçildiğinde otomatik yakalama / profil prompt’ları, model yanıtları ve ilgili konuşma bağlamı `https://global.api-route.com` adresine iletilir.
-- `runcrate`: [Runcrate](https://www.runcrate.ai) için OpenAI uyumlu Chat Completions ön ayarı. `memoryApiUrl` ve `memoryModel` isteğe bağlıdır; varsayılanları `https://api.runcrate.ai/v1` ve `deepseek-ai/DeepSeek-V4.1-Flash`’dir. `memoryApiKey` atlanırsa ortamdan `RUNCRATE_API_KEY` kullanılır. Örnek:
+- `runcrate`: [Runcrate](https://www.runcrate.ai) için OpenAI uyumlu Chat Completions ön ayarı. `memoryApiUrl` ve `memoryModel` isteğe bağlıdır — varsayılanları `https://api.runcrate.ai/v1` ve `deepseek-ai/DeepSeek-V4.1-Flash`’dir. `memoryApiKey` atlanırsa ortamdan `RUNCRATE_API_KEY` kullanılır. Örnek:
   ```jsonc
   "memoryProvider": "runcrate",
   "memoryApiKey": "env://RUNCRATE_API_KEY",

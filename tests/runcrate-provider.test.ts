@@ -193,7 +193,7 @@ describe("RuncrateProvider", () => {
 });
 
 describe("AIProviderFactory runcrate wiring", () => {
-  it("creates an Runcrate provider and lists it as supported", () => {
+  it("creates a Runcrate provider and lists it as supported", () => {
     const provider = AIProviderFactory.createProvider("runcrate", {
       model: "",
       apiUrl: "",

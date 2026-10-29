@@ -540,7 +540,7 @@ Handmatige `memoryProvider`-modi:
   "memoryApiKey": "env://API_ROUTE_API_KEY",
   ```
   Wanneer deze provider is geselecteerd, worden auto-capture- / profielprompts, modelantwoorden en relevante conversatiecontext verzonden naar `https://global.api-route.com`.
-- `runcrate`: OpenAI-compatibel Chat Completions-preset voor [Runcrate](https://www.runcrate.ai). `memoryApiUrl` en `memoryModel` zijn optioneel; ze defaulten naar `https://api.runcrate.ai/v1` en `deepseek-ai/DeepSeek-V4.1-Flash`. Als `memoryApiKey` wordt weggelaten, wordt `RUNCRATE_API_KEY` uit de omgeving gebruikt. Voorbeeld:
+- `runcrate`: OpenAI-compatibel Chat Completions-preset voor [Runcrate](https://www.runcrate.ai). `memoryApiUrl` en `memoryModel` zijn optioneel — ze defaulten naar `https://api.runcrate.ai/v1` en `deepseek-ai/DeepSeek-V4.1-Flash`. Als `memoryApiKey` wordt weggelaten, wordt `RUNCRATE_API_KEY` uit de omgeving gebruikt. Voorbeeld:
   ```jsonc
   "memoryProvider": "runcrate",
   "memoryApiKey": "env://RUNCRATE_API_KEY",

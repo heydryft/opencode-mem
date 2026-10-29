@@ -538,7 +538,7 @@ memory({ mode: "import", inputPath: "./memories.json" });
   "memoryApiKey": "env://API_ROUTE_API_KEY",
   ```
   عند اختيار هذا المزود، تُرسل مطالبات الالتقاط التلقائي / الملف، واستجابات النموذج، وسياق المحادثة ذي الصلة إلى `https://global.api-route.com`.
-- `runcrate`: إعداد مسبق لـ OpenAI-compatible Chat Completions لـ [Runcrate](https://www.runcrate.ai). `memoryApiUrl` و`memoryModel` اختياريان، الافتراضي `https://api.runcrate.ai/v1` و`deepseek-ai/DeepSeek-V4.1-Flash`. إذا حُذف `memoryApiKey`، يُستخدم `RUNCRATE_API_KEY` من البيئة. مثال:
+- `runcrate`: إعداد مسبق لـ OpenAI-compatible Chat Completions لـ [Runcrate](https://www.runcrate.ai). `memoryApiUrl` و`memoryModel` اختياريان — الافتراضي `https://api.runcrate.ai/v1` و`deepseek-ai/DeepSeek-V4.1-Flash`. إذا حُذف `memoryApiKey`، يُستخدم `RUNCRATE_API_KEY` من البيئة. مثال:
   ```jsonc
   "memoryProvider": "runcrate",
   "memoryApiKey": "env://RUNCRATE_API_KEY",
